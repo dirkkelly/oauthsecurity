@@ -18,7 +18,3 @@ get '/' do
   File.open('dist/Sakurity.html')
   #markdown :a #, :layout => :index
 end
-
-get '/d' do
-  File.open('a.html')
-end
